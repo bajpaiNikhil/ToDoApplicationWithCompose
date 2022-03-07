@@ -1,6 +1,5 @@
 package com.example.todoapplicationwithcompose.utils
 
-import android.os.Message
 
 sealed class UiEvent{
 
@@ -10,6 +9,4 @@ sealed class UiEvent{
         val message: String ,
         val action : String?= null
     ): UiEvent()
-
-
 }
